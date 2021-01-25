@@ -1,7 +1,9 @@
-function addition(numOne, numTwo) {
-    if(typeof(numOne) == "number" && typeof(numTwo) == "number") {
-        return numOne + numTwo;
-    } else {
-        alert ("Error!");
-    }
+function whatCanIDrink(age) {
+    if (typeof(age) == "number" && (age < 0)) {
+        return ("Sorry. I can’t tell what drink because that age is incorrect!");
+    } else if (typeof(age) == "number" && (age < 14)) {
+        return ("Drink Toddy");
+    } 
  }
+
+
